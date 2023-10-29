@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(144, 146, 148);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.welcome {
+    text-align: center;
+}
+#tit {
+    font-size: 2em;
+}
+.h2s {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+#h21 {
+    flex: 1;
+}
+#h22 {
+    flex: 1;
+}
+.content {
+    display: flex;
+    width: 100%;
+}
+#war {
+    text-align: center;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+.artdes {
+    flex: 1;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-wrap: wrap;
+    margin: 20px;
+}
+.artdes a:hover {
+    background-color: rgb(48, 73, 73);
+    color: yellow;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 2px;
+}
+.artrec {
+    flex: 1;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-wrap: wrap;
+    margin: 20px;
+}
+#imgdes {
+    float: left;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+li a:hover {
+    background-color: rgb(48, 73, 73);
+    color: yellow;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 2px;
+}
+footer a:hover {
+    color: yellow;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 2px;
+}
